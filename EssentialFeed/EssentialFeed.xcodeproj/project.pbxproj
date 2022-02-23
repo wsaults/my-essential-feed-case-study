@@ -26,6 +26,7 @@
 		BE6C5F9227C013FC00C74C0D /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE080EF327B80F00008844B5 /* EssentialFeed.framework */; };
 		BE6C5F9827C0199800C74C0D /* XCTestCase+MemoryLeakTrackingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6C5F8627BF3C7E00C74C0D /* XCTestCase+MemoryLeakTrackingHelper.swift */; };
 		BEAA737727C6866300750CD6 /* RemoteFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA737627C6866300750CD6 /* RemoteFeedItem.swift */; };
+		BEAA737927C6869F00750CD6 /* LocalFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA737827C6869F00750CD6 /* LocalFeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		BE6C5F8E27C013FC00C74C0D /* EssentialFeedAPIEndToEndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedAPIEndToEndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6C5F9027C013FC00C74C0D /* EssentialFeedAPIEndToEndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedAPIEndToEndTests.swift; sourceTree = "<group>"; };
 		BEAA737627C6866300750CD6 /* RemoteFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedItem.swift; sourceTree = "<group>"; };
+		BEAA737827C6869F00750CD6 /* LocalFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 			children = (
 				BE6038B427C5340700637D3D /* LocalFeedLoader.swift */,
 				BE6038B627C5347700637D3D /* FeedStore.swift */,
+				BEAA737827C6869F00750CD6 /* LocalFeedItem.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEAA737927C6869F00750CD6 /* LocalFeedItem.swift in Sources */,
 				BE6038B727C5347700637D3D /* FeedStore.swift in Sources */,
 				BE6C5F8927BF4A3F00C74C0D /* URLSessionHTTPClient.swift in Sources */,
 				BE080F1827B85EAB008844B5 /* RemoteFeedLoader.swift in Sources */,
