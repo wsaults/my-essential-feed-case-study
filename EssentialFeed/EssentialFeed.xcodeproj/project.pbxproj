@@ -12,7 +12,6 @@
 		BE080F0427B80F00008844B5 /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = BE080EF627B80F00008844B5 /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE080F1027B80F7B008844B5 /* FeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE080F0F27B80F7B008844B5 /* FeedImage.swift */; };
 		BE080F1227B80FC3008844B5 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE080F1127B80FC3008844B5 /* FeedLoader.swift */; };
-		BE080F1527B816B4008844B5 /* LoadFeedFromRemoteUseCaseTests in Sources */ = {isa = PBXBuildFile; fileRef = BE080F1427B816B4008844B5 /* LoadFeedFromRemoteUseCaseTests */; };
 		BE080F1827B85EAB008844B5 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE080F1727B85EAB008844B5 /* RemoteFeedLoader.swift */; };
 		BE080F1A27B93906008844B5 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE080F1927B93906008844B5 /* HTTPClient.swift */; };
 		BE080F1C27B939A1008844B5 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE080F1B27B939A1008844B5 /* FeedItemsMapper.swift */; };
@@ -387,7 +386,6 @@
 			files = (
 				BEBD698427C94E4D00B44885 /* FeedCacheTestHelpers.swift in Sources */,
 				BEBD698227C948A200B44885 /* ValidateFeedCacheUseCaseTests.swift in Sources */,
-				BE080F1527B816B4008844B5 /* LoadFeedFromRemoteUseCaseTests in Sources */,
 				BE6C5F8727BF3C7E00C74C0D /* XCTestCase+MemoryLeakTrackingHelper.swift in Sources */,
 				BEBD698027C7C14D00B44885 /* FeedStoreSpy.swift in Sources */,
 				BEBD698627C94EF800B44885 /* SharedTestHelpers.swift in Sources */,
