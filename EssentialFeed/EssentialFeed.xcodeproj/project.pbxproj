@@ -217,13 +217,12 @@
 		BE6038B327C533EA00637D3D /* Feed Cache */ = {
 			isa = PBXGroup;
 			children = (
+				BE84429527CFEA8300202281 /* Infrastructure */,
 				BE6038B427C5340700637D3D /* LocalFeedLoader.swift */,
 				BE6038B627C5347700637D3D /* FeedStore.swift */,
 				BEAA737827C6869F00750CD6 /* LocalFeedImage.swift */,
 				BEBD698D27CA70E100B44885 /* FeedCachePolicy.swift */,
 				BE148ACE27CE6F55002C433D /* CodableFeedStore.swift */,
-				BE84429027CFD01D00202281 /* CoreDataFeedStore.swift */,
-				BE84429227CFD23900202281 /* FeedStore.xcdatamodeld */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -255,6 +254,15 @@
 				BE84428B27CF17AD00202281 /* XCTestCase+FailableDeleteFeedStoreSpecs.swift */,
 			);
 			path = FeedStoreSpecs;
+			sourceTree = "<group>";
+		};
+		BE84429527CFEA8300202281 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				BE84429027CFD01D00202281 /* CoreDataFeedStore.swift */,
+				BE84429227CFD23900202281 /* FeedStore.xcdatamodeld */,
+			);
+			path = Infrastructure;
 			sourceTree = "<group>";
 		};
 		BEBD697E27C7C14300B44885 /* Helpers */ = {
