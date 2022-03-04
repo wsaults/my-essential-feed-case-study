@@ -121,15 +121,13 @@ class CodableFeedStoreTests: XCTestCase, FailableFeedStore {
     }
 
     func test_delete_deliversErrorOnDeletionError() {
-        let noDeletePermissionURL = cachesDirectory()
-        let sut = makeSUT(storeURL: noDeletePermissionURL)
+        let sut = makeSUT(storeURL: noDeletePermissionURL())
 
         assertThatDeleteDeliversErrorOnDeletionError(on: sut)
     }
 
     func test_delete_hasNoSideEffectsOnDeletionError() {
-        let noDeletePermissionURL = cachesDirectory()
-        let sut = makeSUT(storeURL: noDeletePermissionURL)
+        let sut = makeSUT(storeURL: noDeletePermissionURL())
 
         assertThatDeleteHasNoSideEffectsOnDeletionError(on: sut)
     }
@@ -150,6 +148,16 @@ class CodableFeedStoreTests: XCTestCase, FailableFeedStore {
 
     private func setupEmptyStoreState() {
         deleteStoreArtifacts()
+        createCachesDirectory()
+    }
+
+    private func createCachesDirectory() {
+        try? FileManager
+            .default
+            .createDirectory(
+                atPath: cachesDirectory().path,
+                withIntermediateDirectories: true,
+                attributes: nil)
     }
 
     private func undoStoreSideEffects() {
@@ -162,6 +170,10 @@ class CodableFeedStoreTests: XCTestCase, FailableFeedStore {
 
     private func testSpecificStoreURL() -> URL {
         cachesDirectory().appendingPathComponent("\(type(of: self)).store")
+    }
+
+    private func noDeletePermissionURL() -> URL {
+        return FileManager.default.urls(for: .cachesDirectory, in: .systemDomainMask).first!
     }
 
     private func cachesDirectory() -> URL {
