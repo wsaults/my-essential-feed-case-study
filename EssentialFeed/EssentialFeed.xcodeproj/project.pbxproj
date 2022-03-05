@@ -44,6 +44,8 @@
 		BE8442C227D2AC3600202281 /* EssentialFeediOS.docc in Sources */ = {isa = PBXBuildFile; fileRef = BE8442C127D2AC3600202281 /* EssentialFeediOS.docc */; };
 		BE8442C827D2AC3600202281 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8442BE27D2AC3600202281 /* EssentialFeediOS.framework */; };
 		BE8442D627D30AB100202281 /* FeedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8442D527D30AB100202281 /* FeedViewControllerTests.swift */; };
+		BE8442D827D30D5B00202281 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE080EF327B80F00008844B5 /* EssentialFeed.framework */; };
+		BE8442D927D30D5B00202281 /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE080EF327B80F00008844B5 /* EssentialFeed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BEAA737727C6866300750CD6 /* RemoteFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA737627C6866300750CD6 /* RemoteFeedItem.swift */; };
 		BEAA737927C6869F00750CD6 /* LocalFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA737827C6869F00750CD6 /* LocalFeedImage.swift */; };
 		BEBD697D27C7BAB900B44885 /* LoadFeedFromCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBD697C27C7BAB900B44885 /* LoadFeedFromCacheUseCaseTests.swift */; };
@@ -85,7 +87,28 @@
 			remoteGlobalIDString = BE8442BD27D2AC3600202281;
 			remoteInfo = EssentialFeediOS;
 		};
+		BE8442DA27D30D5B00202281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE080EEA27B80F00008844B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE080EF227B80F00008844B5;
+			remoteInfo = EssentialFeed;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE8442DC27D30D5B00202281 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BE8442D927D30D5B00202281 /* EssentialFeed.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BE080EF327B80F00008844B5 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,6 +194,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE8442D827D30D5B00202281 /* EssentialFeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +219,7 @@
 				BE8442BF27D2AC3600202281 /* EssentialFeediOS */,
 				BE8442CB27D2AC3600202281 /* EssentialFeediOSTests */,
 				BE080EF427B80F00008844B5 /* Products */,
+				BE8442D727D30D5A00202281 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -371,6 +396,13 @@
 			path = EssentialFeediOSTests;
 			sourceTree = "<group>";
 		};
+		BE8442D727D30D5A00202281 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BEBD697E27C7C14300B44885 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -481,10 +513,12 @@
 				BE8442BA27D2AC3600202281 /* Sources */,
 				BE8442BB27D2AC3600202281 /* Frameworks */,
 				BE8442BC27D2AC3600202281 /* Resources */,
+				BE8442DC27D30D5B00202281 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BE8442DB27D30D5B00202281 /* PBXTargetDependency */,
 			);
 			name = EssentialFeediOS;
 			productName = EssentialFeediOS;
@@ -715,6 +749,11 @@
 			isa = PBXTargetDependency;
 			target = BE8442BD27D2AC3600202281 /* EssentialFeediOS */;
 			targetProxy = BE8442C927D2AC3600202281 /* PBXContainerItemProxy */;
+		};
+		BE8442DB27D30D5B00202281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE080EF227B80F00008844B5 /* EssentialFeed */;
+			targetProxy = BE8442DA27D30D5B00202281 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
