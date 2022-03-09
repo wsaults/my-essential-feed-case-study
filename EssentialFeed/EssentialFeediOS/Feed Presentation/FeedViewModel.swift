@@ -8,7 +8,7 @@
 import Foundation
 import EssentialFeed
 
-final class FeedViewModel {
+final class UnusedFeedViewModel {
     typealias Observer<T> = (T) -> Void
 
     private let feedLoader: FeedLoader
