@@ -80,6 +80,7 @@
 		BECB71C227DD2E42006E37E9 /* FeedLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71C127DD2E42006E37E9 /* FeedLoadingViewModel.swift */; };
 		BECB71C427DD2E86006E37E9 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71C327DD2E86006E37E9 /* FeedViewModel.swift */; };
 		BECB71C627DD3375006E37E9 /* UITableView+Dequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71C527DD3375006E37E9 /* UITableView+Dequeueing.swift */; };
+		BECB71C827DD3452006E37E9 /* UIImageView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71C727DD3452006E37E9 /* UIImageView+Animations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -203,6 +204,7 @@
 		BECB71C127DD2E42006E37E9 /* FeedLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoadingViewModel.swift; sourceTree = "<group>"; };
 		BECB71C327DD2E86006E37E9 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		BECB71C527DD3375006E37E9 /* UITableView+Dequeueing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeueing.swift"; sourceTree = "<group>"; };
+		BECB71C727DD3452006E37E9 /* UIImageView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Animations.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -471,11 +473,12 @@
 		BE8442EE27D66FFB00202281 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BE8442E027D4E7FE00202281 /* FeedImageCell.swift */,
-				BE8442E327D5583200202281 /* UIView+Shimmering.swift */,
 				BE84437D27DD175900202281 /* Feed.storyboard */,
 				BE84437F27DD17AF00202281 /* Feed.xcassets */,
+				BE8442E027D4E7FE00202281 /* FeedImageCell.swift */,
+				BECB71C727DD3452006E37E9 /* UIImageView+Animations.swift */,
 				BECB71C527DD3375006E37E9 /* UITableView+Dequeueing.swift */,
+				BE8442E327D5583200202281 /* UIView+Shimmering.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -862,6 +865,7 @@
 				BE8442FD27D6798D00202281 /* FeedImageDataLoader.swift in Sources */,
 				BE84430427D6836200202281 /* FeedUIComposer.swift in Sources */,
 				BE8442DF27D3A1BC00202281 /* FeedViewController.swift in Sources */,
+				BECB71C827DD3452006E37E9 /* UIImageView+Animations.swift in Sources */,
 				BE84430B27D7A35600202281 /* FeedPresenter.swift in Sources */,
 				BE84430927D79A0100202281 /* FeedImageViewModel.swift in Sources */,
 				BE84430127D680CA00202281 /* FeedImageCellController.swift in Sources */,
