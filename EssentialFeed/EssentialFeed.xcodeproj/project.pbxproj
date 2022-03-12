@@ -82,6 +82,7 @@
 		BECB71C627DD3375006E37E9 /* UITableView+Dequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71C527DD3375006E37E9 /* UITableView+Dequeueing.swift */; };
 		BECB71C827DD3452006E37E9 /* UIImageView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71C727DD3452006E37E9 /* UIImageView+Animations.swift */; };
 		BECB71CA27DD41A1006E37E9 /* Feed.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECB71C927DD41A1006E37E9 /* Feed.strings */; };
+		BECB71CC27DD4425006E37E9 /* FeedViewControllerTests+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71CB27DD4425006E37E9 /* FeedViewControllerTests+Localization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -207,6 +208,7 @@
 		BECB71C527DD3375006E37E9 /* UITableView+Dequeueing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeueing.swift"; sourceTree = "<group>"; };
 		BECB71C727DD3452006E37E9 /* UIImageView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Animations.swift"; sourceTree = "<group>"; };
 		BECB71C927DD41A1006E37E9 /* Feed.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Feed.strings; sourceTree = "<group>"; };
+		BECB71CB27DD4425006E37E9 /* FeedViewControllerTests+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedViewControllerTests+Localization.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -468,6 +470,7 @@
 				BE8442F327D670E400202281 /* FeedImageCell+TestHelpers.swift */,
 				BE8442F527D6711200202281 /* FeedViewControllerTests+LoaderSpy.swift */,
 				BE8442F727D6789C00202281 /* FeedViewControllerTests+Assertions.swift */,
+				BECB71CB27DD4425006E37E9 /* FeedViewControllerTests+Localization.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -898,6 +901,7 @@
 				BE8442DD27D30EC500202281 /* XCTestCase+MemoryLeakTrackingHelper.swift in Sources */,
 				BE8442E727D66E6C00202281 /* UIImage+TestHelpers.swift in Sources */,
 				BE8442F427D670E400202281 /* FeedImageCell+TestHelpers.swift in Sources */,
+				BECB71CC27DD4425006E37E9 /* FeedViewControllerTests+Localization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
