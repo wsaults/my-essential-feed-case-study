@@ -85,6 +85,7 @@
 		BECB71CD27DD455D006E37E9 /* Feed.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECB71CF27DD455D006E37E9 /* Feed.strings */; };
 		BECB71D427DD4661006E37E9 /* FeedLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71D327DD4661006E37E9 /* FeedLocalizationTests.swift */; };
 		BECB71D627DD52B3006E37E9 /* MainQueueDispatchDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71D527DD52B3006E37E9 /* MainQueueDispatchDecorator.swift */; };
+		BECB71D827DD52F6006E37E9 /* WeakRefVirtualProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71D727DD52F6006E37E9 /* WeakRefVirtualProxy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -215,6 +216,7 @@
 		BECB71D127DD45F3006E37E9 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Feed.strings; sourceTree = "<group>"; };
 		BECB71D327DD4661006E37E9 /* FeedLocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLocalizationTests.swift; sourceTree = "<group>"; };
 		BECB71D527DD52B3006E37E9 /* MainQueueDispatchDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQueueDispatchDecorator.swift; sourceTree = "<group>"; };
+		BECB71D727DD52F6006E37E9 /* WeakRefVirtualProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakRefVirtualProxy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -536,6 +538,7 @@
 			children = (
 				BE84430327D6836200202281 /* FeedUIComposer.swift */,
 				BECB71D527DD52B3006E37E9 /* MainQueueDispatchDecorator.swift */,
+				BECB71D727DD52F6006E37E9 /* WeakRefVirtualProxy.swift */,
 			);
 			path = Composers;
 			sourceTree = "<group>";
@@ -894,6 +897,7 @@
 				BE8442C227D2AC3600202281 /* EssentialFeediOS.docc in Sources */,
 				BECB71C627DD3375006E37E9 /* UITableView+Dequeueing.swift in Sources */,
 				BE84430727D795FF00202281 /* UnusedFeedViewModel.swift in Sources */,
+				BECB71D827DD52F6006E37E9 /* WeakRefVirtualProxy.swift in Sources */,
 				BECB71C427DD2E86006E37E9 /* FeedViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
