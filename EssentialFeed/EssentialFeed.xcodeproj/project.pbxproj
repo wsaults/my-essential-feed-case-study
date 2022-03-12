@@ -83,6 +83,7 @@
 		BECB71C827DD3452006E37E9 /* UIImageView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71C727DD3452006E37E9 /* UIImageView+Animations.swift */; };
 		BECB71CC27DD4425006E37E9 /* FeedViewControllerTests+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71CB27DD4425006E37E9 /* FeedViewControllerTests+Localization.swift */; };
 		BECB71CD27DD455D006E37E9 /* Feed.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECB71CF27DD455D006E37E9 /* Feed.strings */; };
+		BECB71D427DD4661006E37E9 /* FeedLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71D327DD4661006E37E9 /* FeedLocalizationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -211,6 +212,7 @@
 		BECB71CE27DD455D006E37E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Feed.strings; sourceTree = "<group>"; };
 		BECB71D027DD459D006E37E9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Feed.strings"; sourceTree = "<group>"; };
 		BECB71D127DD45F3006E37E9 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Feed.strings; sourceTree = "<group>"; };
+		BECB71D327DD4661006E37E9 /* FeedLocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLocalizationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -449,6 +451,7 @@
 		BE8442CB27D2AC3600202281 /* EssentialFeediOSTests */ = {
 			isa = PBXGroup;
 			children = (
+				BECB71D227DD4647006E37E9 /* Feed Presentation */,
 				BE8442FA27D6795000202281 /* Feed UI */,
 			);
 			path = EssentialFeediOSTests;
@@ -555,6 +558,14 @@
 				BEBD698327C94E4D00B44885 /* FeedCacheTestHelpers.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BECB71D227DD4647006E37E9 /* Feed Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				BECB71D327DD4661006E37E9 /* FeedLocalizationTests.swift */,
+			);
+			path = "Feed Presentation";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -889,6 +900,7 @@
 			files = (
 				BE8442D627D30AB100202281 /* FeedUIIntegrationTests.swift in Sources */,
 				BE8442F827D6789C00202281 /* FeedViewControllerTests+Assertions.swift in Sources */,
+				BECB71D427DD4661006E37E9 /* FeedLocalizationTests.swift in Sources */,
 				BE8442EB27D66EF500202281 /* UIButton+TestHelpers.swift in Sources */,
 				BE8442E927D66ECA00202281 /* UIRefreshControl+TestHelpers.swift in Sources */,
 				BE8442ED27D66F2300202281 /* UIControl+TestHelpers.swift in Sources */,
