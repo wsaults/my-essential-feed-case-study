@@ -76,6 +76,7 @@
 		BEBD698E27CA70E100B44885 /* FeedCachePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBD698D27CA70E100B44885 /* FeedCachePolicy.swift */; };
 		BEBD698F27CBBD1700B44885 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE080F1427B816B4008844B5 /* LoadFeedFromRemoteUseCaseTests.swift */; };
 		BEBD699127CD10F500B44885 /* CodableFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBD699027CD10F500B44885 /* CodableFeedStoreTests.swift */; };
+		BECB71C027DD28AB006E37E9 /* FeedImagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71BF27DD28AB006E37E9 /* FeedImagePresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -195,6 +196,7 @@
 		BEBD698527C94EF800B44885 /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
 		BEBD698D27CA70E100B44885 /* FeedCachePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCachePolicy.swift; sourceTree = "<group>"; };
 		BEBD699027CD10F500B44885 /* CodableFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStoreTests.swift; sourceTree = "<group>"; };
+		BECB71BF27DD28AB006E37E9 /* FeedImagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImagePresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -529,6 +531,7 @@
 				BE84430627D795FF00202281 /* FeedViewModel.swift */,
 				BE84430827D79A0100202281 /* FeedImageViewModel.swift */,
 				BE84430A27D7A35600202281 /* FeedPresenter.swift */,
+				BECB71BF27DD28AB006E37E9 /* FeedImagePresenter.swift */,
 			);
 			path = "Feed Presentation";
 			sourceTree = "<group>";
@@ -853,6 +856,7 @@
 				BE84430B27D7A35600202281 /* FeedPresenter.swift in Sources */,
 				BE84430927D79A0100202281 /* FeedImageViewModel.swift in Sources */,
 				BE84430127D680CA00202281 /* FeedImageCellController.swift in Sources */,
+				BECB71C027DD28AB006E37E9 /* FeedImagePresenter.swift in Sources */,
 				BE8442E427D5583200202281 /* UIView+Shimmering.swift in Sources */,
 				BE8442E127D4E7FE00202281 /* FeedImageCell.swift in Sources */,
 				BE8442C227D2AC3600202281 /* EssentialFeediOS.docc in Sources */,
