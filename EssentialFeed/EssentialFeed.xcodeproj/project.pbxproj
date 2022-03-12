@@ -81,6 +81,7 @@
 		BECB71C427DD2E86006E37E9 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71C327DD2E86006E37E9 /* FeedViewModel.swift */; };
 		BECB71C627DD3375006E37E9 /* UITableView+Dequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71C527DD3375006E37E9 /* UITableView+Dequeueing.swift */; };
 		BECB71C827DD3452006E37E9 /* UIImageView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71C727DD3452006E37E9 /* UIImageView+Animations.swift */; };
+		BECB71CA27DD41A1006E37E9 /* Feed.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECB71C927DD41A1006E37E9 /* Feed.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -205,6 +206,7 @@
 		BECB71C327DD2E86006E37E9 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		BECB71C527DD3375006E37E9 /* UITableView+Dequeueing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeueing.swift"; sourceTree = "<group>"; };
 		BECB71C727DD3452006E37E9 /* UIImageView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Animations.swift"; sourceTree = "<group>"; };
+		BECB71C927DD41A1006E37E9 /* Feed.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Feed.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -544,6 +546,7 @@
 				BE84430A27D7A35600202281 /* FeedPresenter.swift */,
 				BECB71BF27DD28AB006E37E9 /* FeedImagePresenter.swift */,
 				BECB71C127DD2E42006E37E9 /* FeedLoadingViewModel.swift */,
+				BECB71C927DD41A1006E37E9 /* Feed.strings */,
 			);
 			path = "Feed Presentation";
 			sourceTree = "<group>";
@@ -777,6 +780,7 @@
 			files = (
 				BE84437E27DD175900202281 /* Feed.storyboard in Resources */,
 				BE84438027DD17AF00202281 /* Feed.xcassets in Resources */,
+				BECB71CA27DD41A1006E37E9 /* Feed.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
