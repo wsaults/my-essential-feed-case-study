@@ -43,7 +43,7 @@
 		BE8442AF27D0015A00202281 /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBD698527C94EF800B44885 /* SharedTestHelpers.swift */; };
 		BE8442C227D2AC3600202281 /* EssentialFeediOS.docc in Sources */ = {isa = PBXBuildFile; fileRef = BE8442C127D2AC3600202281 /* EssentialFeediOS.docc */; };
 		BE8442C827D2AC3600202281 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8442BE27D2AC3600202281 /* EssentialFeediOS.framework */; };
-		BE8442D627D30AB100202281 /* FeedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8442D527D30AB100202281 /* FeedViewControllerTests.swift */; };
+		BE8442D627D30AB100202281 /* FeedUIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8442D527D30AB100202281 /* FeedUIIntegrationTests.swift */; };
 		BE8442D827D30D5B00202281 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE080EF327B80F00008844B5 /* EssentialFeed.framework */; };
 		BE8442D927D30D5B00202281 /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE080EF327B80F00008844B5 /* EssentialFeed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE8442DD27D30EC500202281 /* XCTestCase+MemoryLeakTrackingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6C5F8627BF3C7E00C74C0D /* XCTestCase+MemoryLeakTrackingHelper.swift */; };
@@ -173,7 +173,7 @@
 		BE8442BE27D2AC3600202281 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8442C127D2AC3600202281 /* EssentialFeediOS.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeediOS.docc; sourceTree = "<group>"; };
 		BE8442C727D2AC3600202281 /* EssentialFeediOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeediOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE8442D527D30AB100202281 /* FeedViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewControllerTests.swift; sourceTree = "<group>"; };
+		BE8442D527D30AB100202281 /* FeedUIIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUIIntegrationTests.swift; sourceTree = "<group>"; };
 		BE8442DE27D3A1BB00202281 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		BE8442E027D4E7FE00202281 /* FeedImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageCell.swift; sourceTree = "<group>"; };
 		BE8442E327D5583200202281 /* UIView+Shimmering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shimmering.swift"; sourceTree = "<group>"; };
@@ -497,15 +497,6 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		BE8442F027D6700F00202281 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				BE8442E527D66E0C00202281 /* Helpers */,
-				BE8442D527D30AB100202281 /* FeedViewControllerTests.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
 		BE8442F927D6791D00202281 /* Feed UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -519,7 +510,8 @@
 		BE8442FA27D6795000202281 /* Feed UI */ = {
 			isa = PBXGroup;
 			children = (
-				BE8442F027D6700F00202281 /* Controllers */,
+				BE8442E527D66E0C00202281 /* Helpers */,
+				BE8442D527D30AB100202281 /* FeedUIIntegrationTests.swift */,
 			);
 			path = "Feed UI";
 			sourceTree = "<group>";
@@ -891,7 +883,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE8442D627D30AB100202281 /* FeedViewControllerTests.swift in Sources */,
+				BE8442D627D30AB100202281 /* FeedUIIntegrationTests.swift in Sources */,
 				BE8442F827D6789C00202281 /* FeedViewControllerTests+Assertions.swift in Sources */,
 				BE8442EB27D66EF500202281 /* UIButton+TestHelpers.swift in Sources */,
 				BE8442E927D66ECA00202281 /* UIRefreshControl+TestHelpers.swift in Sources */,
