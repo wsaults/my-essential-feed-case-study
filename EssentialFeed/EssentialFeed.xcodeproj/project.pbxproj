@@ -84,6 +84,7 @@
 		BECB71CC27DD4425006E37E9 /* FeedViewControllerTests+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71CB27DD4425006E37E9 /* FeedViewControllerTests+Localization.swift */; };
 		BECB71CD27DD455D006E37E9 /* Feed.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECB71CF27DD455D006E37E9 /* Feed.strings */; };
 		BECB71D427DD4661006E37E9 /* FeedLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71D327DD4661006E37E9 /* FeedLocalizationTests.swift */; };
+		BECB71D627DD52B3006E37E9 /* MainQueueDispatchDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71D527DD52B3006E37E9 /* MainQueueDispatchDecorator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -213,6 +214,7 @@
 		BECB71D027DD459D006E37E9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Feed.strings"; sourceTree = "<group>"; };
 		BECB71D127DD45F3006E37E9 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Feed.strings; sourceTree = "<group>"; };
 		BECB71D327DD4661006E37E9 /* FeedLocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLocalizationTests.swift; sourceTree = "<group>"; };
+		BECB71D527DD52B3006E37E9 /* MainQueueDispatchDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQueueDispatchDecorator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -533,6 +535,7 @@
 			isa = PBXGroup;
 			children = (
 				BE84430327D6836200202281 /* FeedUIComposer.swift */,
+				BECB71D527DD52B3006E37E9 /* MainQueueDispatchDecorator.swift */,
 			);
 			path = Composers;
 			sourceTree = "<group>";
@@ -876,6 +879,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BECB71D627DD52B3006E37E9 /* MainQueueDispatchDecorator.swift in Sources */,
 				BE8442FD27D6798D00202281 /* FeedImageDataLoader.swift in Sources */,
 				BE84430427D6836200202281 /* FeedUIComposer.swift in Sources */,
 				BE8442DF27D3A1BC00202281 /* FeedViewController.swift in Sources */,
