@@ -5,8 +5,6 @@
 //  Created by Will Saults on 3/22/22.
 //
 
-import Foundation
-
 public struct FeedErrorViewModel {
     public let message: String?
 
