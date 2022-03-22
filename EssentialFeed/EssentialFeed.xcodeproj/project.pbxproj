@@ -25,6 +25,7 @@
 		BE27FB3A27E96F81006FFC04 /* UIRefreshControl+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE27FB3927E96F81006FFC04 /* UIRefreshControl+Helpers.swift */; };
 		BE27FB4427EA0B67006FFC04 /* FeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE27FB4327EA0B67006FFC04 /* FeedPresenter.swift */; };
 		BE27FB4527EA0BF3006FFC04 /* Feed.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE27FB3F27EA06B1006FFC04 /* Feed.strings */; };
+		BE27FB4727EA0C76006FFC04 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE27FB4627EA0C76006FFC04 /* FeedViewModel.swift */; };
 		BE6038B227C479B000637D3D /* CacheFeedUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6038B127C479B000637D3D /* CacheFeedUseCaseTests.swift */; };
 		BE6038B527C5340700637D3D /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6038B427C5340700637D3D /* LocalFeedLoader.swift */; };
 		BE6038B727C5347700637D3D /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6038B627C5347700637D3D /* FeedStore.swift */; };
@@ -172,6 +173,7 @@
 		BE27FB4027EA06B3006FFC04 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Feed.strings; sourceTree = "<group>"; };
 		BE27FB4127EA06B4006FFC04 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Feed.strings"; sourceTree = "<group>"; };
 		BE27FB4327EA0B67006FFC04 /* FeedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenter.swift; sourceTree = "<group>"; };
+		BE27FB4627EA0C76006FFC04 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		BE6038B127C479B000637D3D /* CacheFeedUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedUseCaseTests.swift; sourceTree = "<group>"; };
 		BE6038B427C5340700637D3D /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
 		BE6038B627C5347700637D3D /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
@@ -394,6 +396,7 @@
 			isa = PBXGroup;
 			children = (
 				BE27FB4327EA0B67006FFC04 /* FeedPresenter.swift */,
+				BE27FB4627EA0C76006FFC04 /* FeedViewModel.swift */,
 				BE27FB3F27EA06B1006FFC04 /* Feed.strings */,
 			);
 			path = "Feed Presentation";
@@ -878,6 +881,7 @@
 				BE080F1227B80FC3008844B5 /* FeedLoader.swift in Sources */,
 				BE84429127CFD01D00202281 /* CoreDataFeedStore.swift in Sources */,
 				BE84429C27CFEC8100202281 /* ManagedCache.swift in Sources */,
+				BE27FB4727EA0C76006FFC04 /* FeedViewModel.swift in Sources */,
 				BE080F1C27B939A1008844B5 /* FeedItemsMapper.swift in Sources */,
 				BEAA737727C6866300750CD6 /* RemoteFeedItem.swift in Sources */,
 				BE148ACF27CE6F55002C433D /* CodableFeedStore.swift in Sources */,
