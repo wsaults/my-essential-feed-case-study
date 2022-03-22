@@ -15,6 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="QKt-oh-R5v" customClass="ErrorView" customModule="EssentialFeediOS" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="34"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -45,6 +46,7 @@
                             </constraints>
                             <connections>
                                 <outlet property="label" destination="n4S-eL-Jox" id="ARY-A3-MCx"/>
+                                <outletCollection property="gestureRecognizers" destination="yJc-ip-fUu" appends="YES" id="vyJ-WU-mf4"/>
                             </connections>
                         </view>
                         <view key="tableFooterView" contentMode="scaleToFill" id="ktc-Nw-yrM">
@@ -177,6 +179,11 @@ Location</string>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hk9-fq-oIv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="yJc-ip-fUu">
+                    <connections>
+                        <action selector="hideMessageAnimated" destination="QKt-oh-R5v" id="Ndl-8B-usH"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="973.91304347826099" y="116.51785714285714"/>
         </scene>
