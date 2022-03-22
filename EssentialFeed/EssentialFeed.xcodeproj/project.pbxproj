@@ -23,7 +23,8 @@
 		BE27FB3527E96BB8006FFC04 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE27FB3427E96BB8006FFC04 /* ErrorView.swift */; };
 		BE27FB3827E96F32006FFC04 /* FeedErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE27FB3727E96F32006FFC04 /* FeedErrorViewModel.swift */; };
 		BE27FB3A27E96F81006FFC04 /* UIRefreshControl+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE27FB3927E96F81006FFC04 /* UIRefreshControl+Helpers.swift */; };
-		BE27FB3D27EA06B1006FFC04 /* Feed.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE27FB3F27EA06B1006FFC04 /* Feed.strings */; };
+		BE27FB4427EA0B67006FFC04 /* FeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE27FB4327EA0B67006FFC04 /* FeedPresenter.swift */; };
+		BE27FB4527EA0BF3006FFC04 /* Feed.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE27FB3F27EA06B1006FFC04 /* Feed.strings */; };
 		BE6038B227C479B000637D3D /* CacheFeedUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6038B127C479B000637D3D /* CacheFeedUseCaseTests.swift */; };
 		BE6038B527C5340700637D3D /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6038B427C5340700637D3D /* LocalFeedLoader.swift */; };
 		BE6038B727C5347700637D3D /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6038B627C5347700637D3D /* FeedStore.swift */; };
@@ -170,6 +171,7 @@
 		BE27FB3E27EA06B1006FFC04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Feed.strings; sourceTree = "<group>"; };
 		BE27FB4027EA06B3006FFC04 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Feed.strings; sourceTree = "<group>"; };
 		BE27FB4127EA06B4006FFC04 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Feed.strings"; sourceTree = "<group>"; };
+		BE27FB4327EA0B67006FFC04 /* FeedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenter.swift; sourceTree = "<group>"; };
 		BE6038B127C479B000637D3D /* CacheFeedUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedUseCaseTests.swift; sourceTree = "<group>"; };
 		BE6038B427C5340700637D3D /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
 		BE6038B627C5347700637D3D /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
@@ -323,6 +325,7 @@
 				BE6038B327C533EA00637D3D /* Feed Cache */,
 				BE080F1327B810A0008844B5 /* Feed Feature */,
 				BE080F1627B85EA1008844B5 /* Feed API */,
+				BE27FB4227EA0B55006FFC04 /* Feed Presentation */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -372,7 +375,6 @@
 			isa = PBXGroup;
 			children = (
 				BE27FB3227E9674B006FFC04 /* FeedPresenterTests.swift */,
-				BE27FB3F27EA06B1006FFC04 /* Feed.strings */,
 			);
 			path = "Feed Presentation";
 			sourceTree = "<group>";
@@ -386,6 +388,15 @@
 				BE27FB3927E96F81006FFC04 /* UIRefreshControl+Helpers.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BE27FB4227EA0B55006FFC04 /* Feed Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				BE27FB4327EA0B67006FFC04 /* FeedPresenter.swift */,
+				BE27FB3F27EA06B1006FFC04 /* Feed.strings */,
+			);
+			path = "Feed Presentation";
 			sourceTree = "<group>";
 		};
 		BE6038B027C4799C00637D3D /* Feed Cache */ = {
@@ -808,6 +819,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE27FB4527EA0BF3006FFC04 /* Feed.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -815,7 +827,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE27FB3D27EA06B1006FFC04 /* Feed.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -871,6 +882,7 @@
 				BEAA737727C6866300750CD6 /* RemoteFeedItem.swift in Sources */,
 				BE148ACF27CE6F55002C433D /* CodableFeedStore.swift in Sources */,
 				BEBD698E27CA70E100B44885 /* FeedCachePolicy.swift in Sources */,
+				BE27FB4427EA0B67006FFC04 /* FeedPresenter.swift in Sources */,
 				BE080F1027B80F7B008844B5 /* FeedImage.swift in Sources */,
 				BE84429E27CFECB400202281 /* ManagedFeedImage.swift in Sources */,
 				BE6038B527C5340700637D3D /* LocalFeedLoader.swift in Sources */,
