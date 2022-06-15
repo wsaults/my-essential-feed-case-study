@@ -33,6 +33,7 @@
 		BE7012762801AF970098DFD7 /* FeedLoaderStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7012752801AF970098DFD7 /* FeedLoaderStub.swift */; };
 		BEB872BD285A76E20087793B /* EssentialAppUIAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB872BC285A76E20087793B /* EssentialAppUIAcceptanceTests.swift */; };
 		BEB872BF285A76E20087793B /* EssentialAppUIAcceptanceTestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB872BE285A76E20087793B /* EssentialAppUIAcceptanceTestsLaunchTests.swift */; };
+		BEB872C6285A86AB0087793B /* DebuggingSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB872C5285A86AB0087793B /* DebuggingSceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,7 @@
 		BEB872BA285A76E20087793B /* EssentialAppUIAcceptanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppUIAcceptanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB872BC285A76E20087793B /* EssentialAppUIAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUIAcceptanceTests.swift; sourceTree = "<group>"; };
 		BEB872BE285A76E20087793B /* EssentialAppUIAcceptanceTestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUIAcceptanceTestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEB872C5285A86AB0087793B /* DebuggingSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingSceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			children = (
 				BE080E7D27B7F17E008844B5 /* AppDelegate.swift */,
 				BE080E7F27B7F17E008844B5 /* SceneDelegate.swift */,
+				BEB872C5285A86AB0087793B /* DebuggingSceneDelegate.swift */,
 				BE080E8127B7F17E008844B5 /* ViewController.swift */,
 				BE080E8327B7F17E008844B5 /* Main.storyboard */,
 				BE080E8627B7F180008844B5 /* Assets.xcassets */,
@@ -343,6 +346,7 @@
 				BE080E7E27B7F17E008844B5 /* AppDelegate.swift in Sources */,
 				BE58799A27EC280F00F80D44 /* FeedLoaderWithFallbackComposite.swift in Sources */,
 				BE556947281C36A7000E0FAC /* FeedLoaderCacheDecorator.swift in Sources */,
+				BEB872C6285A86AB0087793B /* DebuggingSceneDelegate.swift in Sources */,
 				BE080E8027B7F17E008844B5 /* SceneDelegate.swift in Sources */,
 				BE58799E27EC2A8600F80D44 /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
 				BE556951281C88C8000E0FAC /* FeedImageDataLoaderCacheDecorator.swift in Sources */,
