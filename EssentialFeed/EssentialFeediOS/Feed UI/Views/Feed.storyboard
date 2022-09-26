@@ -20,29 +20,20 @@
                             <rect key="frame" x="0.0" y="0.0" width="414" height="34"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Error label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n4S-eL-Jox">
-                                    <rect key="frame" x="186" y="6" width="78" height="21"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n4S-eL-Jox">
+                                    <rect key="frame" x="8" y="6" width="398" height="22"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auM-oi-Ih1">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="34"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                    <inset key="contentEdgeInsets" minX="0.0" minY="8" maxX="0.0" maxY="8"/>
-                                    <state key="normal" title="Error label">
-                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </state>
-                                </button>
                             </subviews>
                             <color key="backgroundColor" red="0.99951404330000004" green="0.41759261489999999" blue="0.4154433012" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <gestureRecognizers/>
                             <constraints>
-                                <constraint firstItem="auM-oi-Ih1" firstAttribute="top" secondItem="QKt-oh-R5v" secondAttribute="top" id="3On-Lj-ssd"/>
-                                <constraint firstAttribute="bottom" secondItem="auM-oi-Ih1" secondAttribute="bottom" id="Jmy-vH-Gjf"/>
-                                <constraint firstAttribute="trailing" secondItem="auM-oi-Ih1" secondAttribute="trailing" id="Ksy-Xa-qyP"/>
-                                <constraint firstItem="auM-oi-Ih1" firstAttribute="leading" secondItem="QKt-oh-R5v" secondAttribute="leading" id="ilL-TX-9Le"/>
+                                <constraint firstAttribute="trailing" secondItem="n4S-eL-Jox" secondAttribute="trailing" constant="8" id="3Ke-an-3Ar"/>
+                                <constraint firstItem="n4S-eL-Jox" firstAttribute="top" secondItem="QKt-oh-R5v" secondAttribute="top" constant="6" id="40l-Kj-mSN"/>
+                                <constraint firstItem="n4S-eL-Jox" firstAttribute="leading" secondItem="QKt-oh-R5v" secondAttribute="leading" constant="8" id="4j1-PQ-lqW"/>
+                                <constraint firstAttribute="bottom" secondItem="n4S-eL-Jox" secondAttribute="bottom" constant="6" id="AYm-V8-1jI"/>
                             </constraints>
                             <connections>
                                 <outlet property="label" destination="n4S-eL-Jox" id="ARY-A3-MCx"/>
