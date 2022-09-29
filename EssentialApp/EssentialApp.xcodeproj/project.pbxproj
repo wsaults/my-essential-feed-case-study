@@ -39,6 +39,7 @@
 		BE7B12BE2875CD67004BB8A6 /* FeedViewControllerTests+LoaderSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B12B52875CD67004BB8A6 /* FeedViewControllerTests+LoaderSpy.swift */; };
 		BE7B12BF2875CD67004BB8A6 /* FeedViewController+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B12B42875CD67004BB8A6 /* FeedViewController+TestHelpers.swift */; };
 		BE7B12C12875CEE3004BB8A6 /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B12C02875CEE3004BB8A6 /* FeedAcceptanceTests.swift */; };
+		BEA263B228E5ED2A00EAFE50 /* CombineHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA263B128E5ED2A00EAFE50 /* CombineHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,7 @@
 		BE7B12B52875CD67004BB8A6 /* FeedViewControllerTests+LoaderSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedViewControllerTests+LoaderSpy.swift"; sourceTree = "<group>"; };
 		BE7B12B62875CD67004BB8A6 /* FeedImageCell+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedImageCell+TestHelpers.swift"; sourceTree = "<group>"; };
 		BE7B12C02875CEE3004BB8A6 /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
+		BEA263B128E5ED2A00EAFE50 /* CombineHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			children = (
 				BE080E7D27B7F17E008844B5 /* AppDelegate.swift */,
 				BE080E7F27B7F17E008844B5 /* SceneDelegate.swift */,
+				BEA263B128E5ED2A00EAFE50 /* CombineHelpers.swift */,
 				BE7B12A32875CD12004BB8A6 /* FeedUIComposer.swift */,
 				BE7B12A12875CD12004BB8A6 /* WeakRefVirtualProxy.swift */,
 				BE7B12A22875CD12004BB8A6 /* FeedViewAdapter.swift */,
@@ -304,6 +307,7 @@
 			files = (
 				BE080E8227B7F17E008844B5 /* ViewController.swift in Sources */,
 				BE080E7E27B7F17E008844B5 /* AppDelegate.swift in Sources */,
+				BEA263B228E5ED2A00EAFE50 /* CombineHelpers.swift in Sources */,
 				BE7B12AB2875CD12004BB8A6 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */,
 				BE7B12A72875CD12004BB8A6 /* WeakRefVirtualProxy.swift in Sources */,
 				BE7B12A92875CD12004BB8A6 /* FeedLoaderPresentationAdapter.swift in Sources */,
