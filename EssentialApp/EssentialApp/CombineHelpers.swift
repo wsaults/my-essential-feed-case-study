@@ -9,8 +9,6 @@ import Foundation
 import Combine
 import EssentialFeed
 
-
-
 public extension FeedImageDataLoader {
     typealias Publisher = AnyPublisher<Data, Error>
     
