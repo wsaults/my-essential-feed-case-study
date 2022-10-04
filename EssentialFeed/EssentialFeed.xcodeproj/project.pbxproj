@@ -15,8 +15,6 @@
 		BE080F1A27B93906008844B5 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE080F1927B93906008844B5 /* HTTPClient.swift */; };
 		BE080F1C27B939A1008844B5 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE080F1B27B939A1008844B5 /* FeedItemsMapper.swift */; };
 		BE080F1F27BCA6BC008844B5 /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE080F1E27BCA6BC008844B5 /* URLSessionHTTPClientTests.swift */; };
-		BE10C36828EB1F390001591E /* RemoteLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10C36728EB1F390001591E /* RemoteLoaderTests.swift */; };
-		BE10C36A28EB20BC0001591E /* RemoteLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10C36928EB20BC0001591E /* RemoteLoader.swift */; };
 		BE148ACF27CE6F55002C433D /* CodableFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE148ACE27CE6F55002C433D /* CodableFeedStore.swift */; };
 		BE148AD127CEA572002C433D /* FeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE148AD027CEA571002C433D /* FeedStoreSpecs.swift */; };
 		BE148AD327CEA60B002C433D /* XCTestCase+FeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE148AD227CEA60B002C433D /* XCTestCase+FeedStoreSpecs.swift */; };
@@ -164,8 +162,6 @@
 		BE080F1927B93906008844B5 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		BE080F1B27B939A1008844B5 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 		BE080F1E27BCA6BC008844B5 /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
-		BE10C36728EB1F390001591E /* RemoteLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteLoaderTests.swift; sourceTree = "<group>"; };
-		BE10C36928EB20BC0001591E /* RemoteLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteLoader.swift; sourceTree = "<group>"; };
 		BE148ACE27CE6F55002C433D /* CodableFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStore.swift; sourceTree = "<group>"; };
 		BE148AD027CEA571002C433D /* FeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStoreSpecs.swift; sourceTree = "<group>"; };
 		BE148AD227CEA60B002C433D /* XCTestCase+FeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedStoreSpecs.swift"; sourceTree = "<group>"; };
@@ -614,7 +610,6 @@
 			isa = PBXGroup;
 			children = (
 				BE080F1927B93906008844B5 /* HTTPClient.swift */,
-				BE10C36928EB20BC0001591E /* RemoteLoader.swift */,
 			);
 			path = "Shared API";
 			sourceTree = "<group>";
@@ -631,7 +626,6 @@
 			isa = PBXGroup;
 			children = (
 				BEA263C028E7627200EAFE50 /* Helpers */,
-				BE10C36728EB1F390001591E /* RemoteLoaderTests.swift */,
 			);
 			path = "Shared API";
 			sourceTree = "<group>";
@@ -931,7 +925,6 @@
 				BE27FB5A27EBCD07006FFC04 /* FeedImageDataLoader.swift in Sources */,
 				BE27FB6127EBDDDB006FFC04 /* RemoteFeedImageDataLoader.swift in Sources */,
 				BEA263BB28E75B8900EAFE50 /* ImageComment.swift in Sources */,
-				BE10C36A28EB20BC0001591E /* RemoteLoader.swift in Sources */,
 				BE84429927CFEB6D00202281 /* CoreDataHelpers.swift in Sources */,
 				BE080F1227B80FC3008844B5 /* FeedLoader.swift in Sources */,
 				BE27FB5127EA1B88006FFC04 /* FeedImagePresenter.swift in Sources */,
@@ -960,7 +953,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE10C36828EB1F390001591E /* RemoteLoaderTests.swift in Sources */,
 				BEBD699127CD10F500B44885 /* CodableFeedStoreTests.swift in Sources */,
 				BEBD698427C94E4D00B44885 /* FeedCacheTestHelpers.swift in Sources */,
 				BE27FB4D27EA0ECE006FFC04 /* FeedLocalizationTests.swift in Sources */,
