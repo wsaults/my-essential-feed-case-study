@@ -24,7 +24,7 @@
 		BE7B12A62875CD12004BB8A6 /* FeedViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B12A22875CD12004BB8A6 /* FeedViewAdapter.swift */; };
 		BE7B12A72875CD12004BB8A6 /* WeakRefVirtualProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B12A12875CD12004BB8A6 /* WeakRefVirtualProxy.swift */; };
 		BE7B12A82875CD12004BB8A6 /* FeedUIComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B12A32875CD12004BB8A6 /* FeedUIComposer.swift */; };
-		BE7B12A92875CD12004BB8A6 /* FeedLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B12A42875CD12004BB8A6 /* FeedLoaderPresentationAdapter.swift */; };
+		BE7B12A92875CD12004BB8A6 /* LoadResourcePresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B12A42875CD12004BB8A6 /* LoadResourcePresentationAdapter.swift */; };
 		BE7B12AB2875CD12004BB8A6 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B12A52875CD12004BB8A6 /* FeedImageDataLoaderPresentationAdapter.swift */; };
 		BE7B12AD2875CD3C004BB8A6 /* FeedUIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B12AC2875CD3C004BB8A6 /* FeedUIIntegrationTests.swift */; };
 		BE7B12B72875CD67004BB8A6 /* UIButton+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B12B32875CD67004BB8A6 /* UIButton+TestHelpers.swift */; };
@@ -84,7 +84,7 @@
 		BE7B12A12875CD12004BB8A6 /* WeakRefVirtualProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakRefVirtualProxy.swift; sourceTree = "<group>"; };
 		BE7B12A22875CD12004BB8A6 /* FeedViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewAdapter.swift; sourceTree = "<group>"; };
 		BE7B12A32875CD12004BB8A6 /* FeedUIComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUIComposer.swift; sourceTree = "<group>"; };
-		BE7B12A42875CD12004BB8A6 /* FeedLoaderPresentationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderPresentationAdapter.swift; sourceTree = "<group>"; };
+		BE7B12A42875CD12004BB8A6 /* LoadResourcePresentationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadResourcePresentationAdapter.swift; sourceTree = "<group>"; };
 		BE7B12A52875CD12004BB8A6 /* FeedImageDataLoaderPresentationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderPresentationAdapter.swift; sourceTree = "<group>"; };
 		BE7B12AC2875CD3C004BB8A6 /* FeedUIIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUIIntegrationTests.swift; sourceTree = "<group>"; };
 		BE7B12AE2875CD67004BB8A6 /* UIControl+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+TestHelpers.swift"; sourceTree = "<group>"; };
@@ -148,7 +148,7 @@
 				BE7B12A32875CD12004BB8A6 /* FeedUIComposer.swift */,
 				BE7B12A12875CD12004BB8A6 /* WeakRefVirtualProxy.swift */,
 				BE7B12A22875CD12004BB8A6 /* FeedViewAdapter.swift */,
-				BE7B12A42875CD12004BB8A6 /* FeedLoaderPresentationAdapter.swift */,
+				BE7B12A42875CD12004BB8A6 /* LoadResourcePresentationAdapter.swift */,
 				BE7B12A52875CD12004BB8A6 /* FeedImageDataLoaderPresentationAdapter.swift */,
 				BE080E8127B7F17E008844B5 /* ViewController.swift */,
 				BE080E8627B7F180008844B5 /* Assets.xcassets */,
@@ -304,7 +304,7 @@
 				BEA263B228E5ED2A00EAFE50 /* CombineHelpers.swift in Sources */,
 				BE7B12AB2875CD12004BB8A6 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */,
 				BE7B12A72875CD12004BB8A6 /* WeakRefVirtualProxy.swift in Sources */,
-				BE7B12A92875CD12004BB8A6 /* FeedLoaderPresentationAdapter.swift in Sources */,
+				BE7B12A92875CD12004BB8A6 /* LoadResourcePresentationAdapter.swift in Sources */,
 				BE080E8027B7F17E008844B5 /* SceneDelegate.swift in Sources */,
 				BE7B12A82875CD12004BB8A6 /* FeedUIComposer.swift in Sources */,
 				BE7B12A62875CD12004BB8A6 /* FeedViewAdapter.swift in Sources */,
