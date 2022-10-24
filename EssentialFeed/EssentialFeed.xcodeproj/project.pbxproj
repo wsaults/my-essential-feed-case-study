@@ -420,10 +420,7 @@
 			isa = PBXGroup;
 			children = (
 				BECB71C727DD3452006E37E9 /* UIImageView+Animations.swift */,
-				BECB71C527DD3375006E37E9 /* UITableView+Dequeueing.swift */,
 				BE8442E327D5583200202281 /* UIView+Shimmering.swift */,
-				BE27FB3927E96F81006FFC04 /* UIRefreshControl+Helpers.swift */,
-				BEA263AE28E2164E00EAFE50 /* UITableView+HeaderSizing.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -560,6 +557,7 @@
 			isa = PBXGroup;
 			children = (
 				BE8442C127D2AC3600202281 /* EssentialFeediOS.docc */,
+				BE99A6142907261F00904FAE /* Shared UI */,
 				BE8442F927D6791D00202281 /* Feed UI */,
 			);
 			path = EssentialFeediOS;
@@ -588,7 +586,6 @@
 				BE84437D27DD175900202281 /* Feed.storyboard */,
 				BE84437F27DD17AF00202281 /* Feed.xcassets */,
 				BE8442E027D4E7FE00202281 /* FeedImageCell.swift */,
-				BE27FB3427E96BB8006FFC04 /* ErrorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -596,7 +593,6 @@
 		BE8442EF27D66FFF00202281 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BE8442DE27D3A1BB00202281 /* ListViewController.swift */,
 				BE84430027D680CA00202281 /* FeedImageCellController.swift */,
 			);
 			path = Controllers;
@@ -649,6 +645,42 @@
 				BE99A6112906CC1000904FAE /* ImageComments.strings */,
 			);
 			path = "Image Comments Presentation";
+			sourceTree = "<group>";
+		};
+		BE99A6142907261F00904FAE /* Shared UI */ = {
+			isa = PBXGroup;
+			children = (
+				BE99A6152907262E00904FAE /* Controllers */,
+				BE99A6172907267900904FAE /* Views */,
+			);
+			path = "Shared UI";
+			sourceTree = "<group>";
+		};
+		BE99A6152907262E00904FAE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE8442DE27D3A1BB00202281 /* ListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BE99A6172907267900904FAE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE99A618290726A200904FAE /* Helpers */,
+				BE27FB3427E96BB8006FFC04 /* ErrorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BE99A618290726A200904FAE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BE27FB3927E96F81006FFC04 /* UIRefreshControl+Helpers.swift */,
+				BECB71C527DD3375006E37E9 /* UITableView+Dequeueing.swift */,
+				BEA263AE28E2164E00EAFE50 /* UITableView+HeaderSizing.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		BEA263AB28E2106F00EAFE50 /* Helpers */ = {
