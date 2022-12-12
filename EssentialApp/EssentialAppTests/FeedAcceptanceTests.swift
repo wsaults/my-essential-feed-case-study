@@ -16,8 +16,8 @@ class FeedAcceptanceTests: XCTestCase {
         let feed = launch(httpClient: .online(response), store: .empty)
         
         XCTAssertEqual(feed.numberOfRenderedFeedImageViews(), 2)
-        XCTAssertEqual(feed.renderedFeedImageData(at:0), makeImageData())
-        XCTAssertEqual(feed.renderedFeedImageData(at:1), makeImageData())
+        XCTAssertEqual(feed.renderedFeedImageData(at: 0), makeImageData())
+        XCTAssertEqual(feed.renderedFeedImageData(at: 1), makeImageData())
     }
     
     func test_onLaunch_displaysCachedRemoteFeedWhenCustomerHasNoConnectivity() {
@@ -39,18 +39,18 @@ class FeedAcceptanceTests: XCTestCase {
         XCTAssertEqual(feed.numberOfRenderedFeedImageViews(), 0)
     }
     
-    func test_onEnteringBackground_deletesExpiredFeedCache() {
+    func test_onEnteringBackground_deletesExpiredFeedCache() throws {
         let store = InMemoryFeedStore.withExpiredFeedCache
         
-        enterBackground(with: store)
+        try enterBackground(with: store)
         
         XCTAssertNil(store.feedCache, "Expected to delete expired cache")
     }
     
-    func test_onEnteringBackground_keepsNonExpiredFeedCache() {
+    func test_onEnteringBackground_keepsNonExpiredFeedCache() throws {
         let store = InMemoryFeedStore.withNonExpiredFeedCache
         
-        enterBackground(with: store)
+        try enterBackground(with: store)
         
         XCTAssertNotNil(store.feedCache, "Expected to keep non-expired cache")
     }
@@ -76,9 +76,12 @@ class FeedAcceptanceTests: XCTestCase {
         return nav?.topViewController as! ListViewController
     }
     
-    private func enterBackground(with store: InMemoryFeedStore) {
+    private func enterBackground(with store: InMemoryFeedStore) throws {
         let sut = SceneDelegate(httpClient: HTTPClientStub.offline, store: store)
-        sut.sceneWillResignActive(UIApplication.shared.connectedScenes.first!)
+
+        let sceneClass = NSClassFromString("UIScene") as? NSObject.Type
+        let scene = try XCTUnwrap(sceneClass?.init() as? UIScene)
+        sut.sceneWillResignActive(scene)
     }
     
     private func showCommentsForFirstImage() -> ListViewController {
