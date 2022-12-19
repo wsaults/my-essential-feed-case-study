@@ -138,6 +138,7 @@
 		BEBD698E27CA70E100B44885 /* FeedCachePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBD698D27CA70E100B44885 /* FeedCachePolicy.swift */; };
 		BEBD698F27CBBD1700B44885 /* FeedItemsMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE080F1427B816B4008844B5 /* FeedItemsMapperTests.swift */; };
 		BEBD699127CD10F500B44885 /* CodableFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBD699027CD10F500B44885 /* CodableFeedStoreTests.swift */; };
+		BEC3EDBE2950AD78009B77FF /* Paginated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EDBD2950AD78009B77FF /* Paginated.swift */; };
 		BECB71C627DD3375006E37E9 /* UITableView+Dequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71C527DD3375006E37E9 /* UITableView+Dequeueing.swift */; };
 		BECB71C827DD3452006E37E9 /* UIImageView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB71C727DD3452006E37E9 /* UIImageView+Animations.swift */; };
 /* End PBXBuildFile section */
@@ -327,6 +328,7 @@
 		BEBD698527C94EF800B44885 /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
 		BEBD698D27CA70E100B44885 /* FeedCachePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCachePolicy.swift; sourceTree = "<group>"; };
 		BEBD699027CD10F500B44885 /* CodableFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStoreTests.swift; sourceTree = "<group>"; };
+		BEC3EDBD2950AD78009B77FF /* Paginated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paginated.swift; sourceTree = "<group>"; };
 		BECB71C527DD3375006E37E9 /* UITableView+Dequeueing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeueing.swift"; sourceTree = "<group>"; };
 		BECB71C727DD3452006E37E9 /* UIImageView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Animations.swift"; sourceTree = "<group>"; };
 		BECB71D327DD4661006E37E9 /* FeedLocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLocalizationTests.swift; sourceTree = "<group>"; };
@@ -878,6 +880,7 @@
 			isa = PBXGroup;
 			children = (
 				BE080F1927B93906008844B5 /* HTTPClient.swift */,
+				BEC3EDBD2950AD78009B77FF /* Paginated.swift */,
 			);
 			path = "Shared API";
 			sourceTree = "<group>";
@@ -1207,6 +1210,7 @@
 				BE27FB7727EC0D07006FFC04 /* CoreDataFeedStore+FeedStore.swift in Sources */,
 				BE99A59928EDD7DA00904FAE /* FeedImageDataMapper.swift in Sources */,
 				BE27FB4B27EA0D87006FFC04 /* ResourceLoadingViewModel.swift in Sources */,
+				BEC3EDBE2950AD78009B77FF /* Paginated.swift in Sources */,
 				BE27FB4927EA0D68006FFC04 /* ResourceErrorViewModel.swift in Sources */,
 				BE99A6042901CA1600904FAE /* ResourceErrorView.swift in Sources */,
 				BE6C5F8927BF4A3F00C74C0D /* URLSessionHTTPClient.swift in Sources */,
