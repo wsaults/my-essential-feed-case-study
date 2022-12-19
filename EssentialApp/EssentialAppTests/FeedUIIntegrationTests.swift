@@ -50,6 +50,18 @@ class FeedUIIntegrationTests: XCTestCase {
         sut.simulateUserInitiatedReload()
         XCTAssertEqual(loader.loadFeedCallCount, 3, "Expected a third loading request once user initiates another load")
     }
+    
+    func test_loadMoredActions_requestMoreFromLoader() {
+        let (sut, loader) = makeSUT()
+        sut.loadViewIfNeeded()
+        loader.completeFeedLoading()
+        
+        XCTAssertEqual(loader.loadMoreCallCount, 0, "Expected no requests until load more action")
+        
+        sut.simulateLoadMoreFeedAction()
+
+        XCTAssertEqual(loader.loadMoreCallCount, 1, "Expected a load more requests")
+    }
 
     func test_feedLoadingIndicator_isVisibleWhileLoadingFeed() {
         let (sut, loader) = makeSUT()
